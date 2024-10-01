@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shopping App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping App</h1>
+        <div id="cart">
+            Cart: <span id="cart-count">0</span> items
+        </div>
+    </header>
+
+    <main>
+        <div class="product" data-name="Product 1" data-price="10">
+            <h2>Product 1</h2>
+            <p>Price: $10</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 2" data-price="20">
+            <h2>Product 2</h2>
+            <p>Price: $20</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 3" data-price="30">
+            <h2>Product 3</h2>
+            <p>Price: $30</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <button id="checkout">Checkout</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
